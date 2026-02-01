@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+.outer{
+    width: 100%;
+    /* min-width: 700px; */
+    /* height: 100vh; */
+    height:650px;
+    background-image:linear-gradient(to top left,#FC5C7D,#6A82FB);
+}
+
+.inner-box{
+   /* width:300px;
+    */
+    width: 25%;
+   margin:0 auto;
+   position: relative;
+   min-height: 400px;
+   top:16%;
+   transform: translate(1%);
+   padding: 20px 40px;
+   background-color:#ffffff45;
+   backdrop-filter:blur(8px);
+   border-radius: 8px;
+   box-shadow: 2px 2px 5px #FC5C7D;
+   
+}
+.login-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+    text-align: center;
+    }
+ /* .main-login{
+     margin:5px 0; 
+} */
+.main-login p{
+    margin:5px 0;
+}
+.main-login p label{
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom:5px;
+}
+.main-login p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff39;
+    font-size: 0.8rem;
+    /* font-size: 1vw; */
+ 
+    
+
+}
+.main-login button
+{
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to top left,#FC5C7D,#6A82FB);
+    color:black;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: auto;
+    margin-top: 15px;
+    /* border-color: lightgray; */
+}
+main-login p input[type="Login"]:hover{
+  
+    background-image: linear-gradient(to top left,#e29fac,#8897dd);
+}
+.signup{
+    text-align: center;
+    margin-top: 20px;
+}
+ /* @media screen  and (min-width:500px) { 
+    .outer{
+        width: 100%;
+    }
+     .inner-box{
+        width: 30%;
+    }
+    .outer label{
+    font-size: 2vw;
+}
+.main-login p input{
+    font-size: 2vw;
+    width: 100%;
+     padding: 6px;
+}
+ } */
+
+
+/* @media screen  and (min-width:678px) and (max-width:1200px){ 
+
+
+    .outer{
+        width: 100%;
+    }
+     .inner-box{
+        width: 30%;
+    }
+    .outer label{
+    font-size: 1vw;
+}
+.main-login p input{
+    font-size: 1vw;
+    width: 100%;
+    padding: 6px;
+}
+
+   
+    
+} */
+ @media only screen and (max-width: 568px ) {
+    
+    .outer{
+        width: 100%;
+        height: 800px;
+       }
+    .inner-box{
+       width: 70%;
+       position: absolute;
+       top:20%;
+       left: 55px;
+
+    }
+ }
+ 
